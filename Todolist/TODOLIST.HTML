@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <script src="todolist.js"></script>
+    <style>
+        body{
+            padding:20px;
+            justify-content: center;
+            background-color:blue;
+        }
+        div{
+            display:flexbox;
+        }
+        .container{
+            min-width:720px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .todo-form{
+            min-width: 350px;
+            margin:40px 0px;
+            padding:25px 30px;
+            background-color: white;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 4px;
+        }
+        #add{
+            font-size: 14px;
+            background-color: blue;
+        }
+        #tasks{
+            padding:20px;
+            background-color: whitesmoke;
+        }
+        #lists{
+            min-width: 350px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="newtask">
+    <h2>Add your To Do List Here</h2>
+    <!---form-->
+    <form action="" class="todo-form">
+    <input type="text" class="todo-input" placeholder="Add your list here">
+    <input type="button" onclick="onclickevent" id="add" value="Add">
+</div>
+</form>
+<div id="tasks">
+    <ul id="lists"></ul>
+
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+

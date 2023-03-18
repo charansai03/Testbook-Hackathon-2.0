@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    background-color: coral;
+}
+h1{
+    font-size:4rem;
+    color:green;
+}
+
+.drum{
+    outline:none;
+    border:5px solid red;
+    font-size:4rem;
+    line-height:2;
+    font-weight:900;
+    color:magenta;
+    text-shadow:3px 0 white;
+    border-radius: 15px;
+    display:inline-block;
+    width:150px;
+    height:150px;
+    text-align: center;
+    margin: 10px;
+    background-color: aqua;
+
+}
+
+.w{
+    background-image: url("drum7.jfif");
+
+}
+
+.a{
+    background-image: url("drum1.jfif");
+    
+}
+.s{
+    background-image: url("drum2.jfif");
+    
+}
+
+.d{
+    background-image: url("drum3.jfif");
+    
+}
+
+.j{
+    background-image: url("drum4.jfif");
+    
+}
+
+.k{
+    background-image: url("drum5.jfif");
+    
+}
+
+.l{
+    background-image: url("drum6.jfif");
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
